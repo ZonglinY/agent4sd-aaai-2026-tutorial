@@ -259,15 +259,15 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [Transformer-Based Planning for Symbolic Regression (NeurIPS'23)](https://creddy.net/papers/NeurIPS23a.pdf)
 - [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://creddy.net/papers/ICLR24.pdf)
 - [Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567)
-- [LLM-FE: Automated Feature Engineering for Tabular Data with LLMs as Evolutionary Optimizers](https://arxiv.org/abs/2503.14434)[[Github](https://github.com/nikhilsab/LLMFE)]
+- [LLM-FE: Automated Feature Engineering for Tabular Data with LLMs as Evolutionary Optimizers](https://arxiv.org/abs/2503.14434)
 
 
 ## Pre-experiment Phase
 
-- [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726) [[Github](https://github.com/ZonglinY/MOOSE)]
-- [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076) [[Github](https://github.com/ZonglinY/MOOSE-Chem)]
-- [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209) [[Github](https://github.com/ZonglinY/MOOSE-Chem2)]
-- [MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier](https://arxiv.org/abs/2603.03756)[[Github](https://github.com/ZonglinY/MOOSE-Star)]
+- [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726) 
+- [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076) 
+- [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209) 
+- [MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier](https://arxiv.org/abs/2603.03756)
 - [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](https://arxiv.org/abs/2503.21248)
 
 
@@ -282,7 +282,7 @@ By structuring discovery into these two phases—**optimization with heuristics 
 
 
 ## Experiment-guided Phase (Costly Experimentation)
-- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback (NeurIPS'25 AI4S workshop)](https://arxiv.org/abs/2505.17873) [[Github](https://github.com/wanhaoliu/MOOSE-Chem3)]
+- [MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback (NeurIPS'25 AI4S workshop)](https://arxiv.org/abs/2505.17873) 
 - [Accelerating Materials Design via LLM-Guided Evolutionary Search](https://arxiv.org/abs/2510.22503)
 - [Mlr-copilot: Autonomous machine learning research based on large language models agents](https://arxiv.org/abs/2408.14033)
 - [LMR-BENCH: Evaluating LLM Agent's Ability on Reproducing Language Modeling Research](https://arxiv.org/abs/2506.17335)
