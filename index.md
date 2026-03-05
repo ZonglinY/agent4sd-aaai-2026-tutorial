@@ -259,6 +259,7 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [Transformer-Based Planning for Symbolic Regression (NeurIPS'23)](https://creddy.net/papers/NeurIPS23a.pdf)
 - [SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training (ICLR'24)](https://creddy.net/papers/ICLR24.pdf)
 - [Evaluating Large Language Models in Scientific Discovery](https://arxiv.org/abs/2512.15567)
+- [LLM-FE: Automated Feature Engineering for Tabular Data with LLMs as Evolutionary Optimizers](https://arxiv.org/abs/2503.14434)[[Github](https://github.com/nikhilsab/LLMFE)]
 
 
 ## Pre-experiment Phase
@@ -266,6 +267,7 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726) [[Github](https://github.com/ZonglinY/MOOSE)]
 - [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076) [[Github](https://github.com/ZonglinY/MOOSE-Chem)]
 - [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209) [[Github](https://github.com/ZonglinY/MOOSE-Chem2)]
+- [MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier](https://arxiv.org/abs/2603.03756)[[Github](https://github.com/ZonglinY/MOOSE-Star)]
 - [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](https://arxiv.org/abs/2503.21248)
 
 
