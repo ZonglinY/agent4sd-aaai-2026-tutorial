@@ -160,10 +160,19 @@ use-site-title: false
 <hr> -->
 
 
+<!-- <div class="tutorial-slides">
+  <h2>Slides</h2>
+  <ul>
+    <li><a href="https://github.com/ZonglinY/llm4sd-aaai-2026/blob/main/_data/AAAI26-Agents-Tutorial-Reddy.pptx" target="_blank">Part 1: by Chandan Reddy</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1n92tzyFGcDAsQG4uZ_jIGQV39jgCrEAP/edit?usp=sharing&ouid=111093169629314886898&rtpof=true&sd=true" target="_blank">Part 2: by Zonglin Yang</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1Ek-mPEpsjlvNbk7U9xp1o1G0NwE-x_Mu0E7M_5zILq8/edit?usp=sharing" target="_blank">Part 3: by Ruochen Li</a></li>
+  </ul>
+</div> -->
+
 <div class="tutorial-slides">
   <h2>Slides</h2>
   <ul>
-    <li><a href="https://github.com/ZonglinY/llm4sd-aaai-2026/blob/main/_data/AAAI26-Agents-Tutorial-Reddy.pdf" target="_blank">Part 1: by Chandan Reddy</a></li>
+    <li><a href="https://github.com/ZonglinY/llm4sd-aaai-2026/blob/main/_data/AAAI26-Agents-Tutorial-Reddy.pptx?raw=true">Part 1: by Chandan Reddy</a></li>
     <li><a href="https://docs.google.com/presentation/d/1n92tzyFGcDAsQG4uZ_jIGQV39jgCrEAP/edit?usp=sharing&ouid=111093169629314886898&rtpof=true&sd=true" target="_blank">Part 2: by Zonglin Yang</a></li>
     <li><a href="https://docs.google.com/presentation/d/1Ek-mPEpsjlvNbk7U9xp1o1G0NwE-x_Mu0E7M_5zILq8/edit?usp=sharing" target="_blank">Part 3: by Ruochen Li</a></li>
   </ul>
