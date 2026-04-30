@@ -276,8 +276,8 @@ By structuring discovery into these two phases—**optimization with heuristics 
 - [Large Language Models for Automated Open-domain Scientific Hypotheses Discovery (ACL'24)](https://arxiv.org/abs/2309.02726) 
 - [MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses (ICLR'25)](https://arxiv.org/abs/2410.07076) 
 - [MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search (NeurIPS'25)](https://arxiv.org/abs/2505.19209) 
-- [MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier](https://arxiv.org/abs/2603.03756)
-- [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition](https://arxiv.org/abs/2503.21248)
+- [MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier (ICML'26)](https://arxiv.org/abs/2603.03756)
+- [ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition (ACL'26)](https://arxiv.org/abs/2503.21248)
 
 
 ## Experiment-guided Phase (Efficient Experimentation)
