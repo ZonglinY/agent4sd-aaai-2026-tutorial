@@ -1401,9 +1401,11 @@ img {
   margin-top: 30px;
 }
 .conference-title {
-  font-size: 13px;
+  color: #003973;
+  font-size: 16px;
   font-weight: 650;
-  letter-spacing: .08em;
+  letter-spacing: .065em;
+  white-space: nowrap;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -1435,7 +1437,7 @@ img {
   .hero-topline { gap: 18px; padding-bottom: 16px; }
   .conference-logo img { width: 150px; }
   .conference-identity { gap: 10px 14px; margin-top: 24px; }
-  .conference-title { font-size: 12px; }
+  .conference-title { font-size: 14px; }
   .conference-location { font-size: 11px; }
   .speaker-actions details { margin-top: 12px; }
 }

@@ -78,8 +78,10 @@ def main():
     for name, email in zip(names, ["dianbo@nus.edu.sg", "zonglin001@ntu.edu.sg", "tingting.c@u.nus.edu", "reddy@cs.vt.edu"]):
         assert f'aria-label="Email {name}"' in text
         assert pages["/2027/"].links.count("mailto:" + email) == (2 if email == "zonglin001@ntu.edu.sg" else 1)
-    assert '<a href="mailto:zonglin001@ntu.edu.sg">Contact the organizers ↗</a>' in text
+    assert '<a href="mailto:zonglin001@ntu.edu.sg">Feedback &amp; suggestions ↗</a>' in text
     assert 'href="#speakers">Contact the presenters' in text
+    assert "AAAI 2027 · Tutorial" in text
+    assert "Accepted" not in text
     assert baseurl + "/assets/img/brand/aaai-logo.png" in pages["/2027/"].images
     assert "https://aaai.org/conference/aaai/aaai-27/" in pages["/2027/"].links
     assert "Tentative schedule" not in text and 'class="schedule"' not in text
