@@ -26,6 +26,12 @@ fs.mkdirSync(output, { recursive: true });
       const dimensions = await page.evaluate(() => ({width: innerWidth, scroll: document.documentElement.scrollWidth, brokenImages: [...document.images].filter(i => !i.complete || !i.naturalWidth).map(i => i.src)}));
       if (dimensions.scroll > width + 1 || dimensions.brokenImages.length) throw Error(JSON.stringify({route, ...dimensions}));
       if (['/', '/2027/'].includes(route)) {
+        const emailRows = await page.locator('.speaker-actions').evaluateAll(rows => rows.map(row => {
+          const email = row.querySelector('.speaker-email').getBoundingClientRect();
+          const summary = row.querySelector('summary').getBoundingClientRect();
+          return Math.abs((email.top + email.bottom) / 2 - (summary.top + summary.bottom) / 2) <= 2;
+        }));
+        if (emailRows.length !== 4 || emailRows.some(aligned => !aligned)) throw Error('Email must share the biography row');
         if (await page.locator('.schedule').count()) throw Error('Timetable still present');
         if (!await page.getByRole('heading', {name: 'Detailed Tutorial Description', exact: true}).count()) throw Error('Missing tutorial structure');
       }
