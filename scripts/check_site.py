@@ -74,7 +74,12 @@ def main():
     names = ["Dianbo Liu", "Zonglin Yang", "Tingting Chen", "Chandan K. Reddy"]
     indices = [text.index(f'alt="{name}"') for name in names]
     assert indices == sorted(indices), "Incorrect speaker order"
-    assert len(pages["/2027/"].images) == 4, "Expected four presenter photos"
+    assert len([src for src in pages["/2027/"].images if "/assets/img/2027/" in src]) == 4, "Expected four presenter photos"
+    for name, email in zip(names, ["dianbo@nus.edu.sg", "zonglin001@ntu.edu.sg", "tingting.c@u.nus.edu", "reddy@cs.vt.edu"]):
+        assert f'aria-label="Email {name}"' in text
+        assert pages["/2027/"].links.count("mailto:" + email) == 1
+    assert baseurl + "/assets/img/brand/aaai-logo.png" in pages["/2027/"].images
+    assert "https://aaai.org/conference/aaai/aaai-27/" in pages["/2027/"].links
     assert "Tentative schedule" not in text and 'class="schedule"' not in text
     assert "0:00" not in text and "30-minute break" not in text
     assert (root / "CNAME").read_text().strip() == "agent4sd.io"

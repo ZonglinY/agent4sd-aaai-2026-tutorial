@@ -1,7 +1,10 @@
 {% assign tutorial = site.data.tutorial2027 %}
 <section class="tutorial-hero compact-hero wrap">
   <a class="back-link" href="{{ '/list/' | relative_url }}">← All tutorials</a>
-  <div class="eyebrow hero-kicker">AAAI 2027 Tutorial <span class="dot-divider">/</span> Montréal, Canada <span class="badge badge-green">Accepted</span></div>
+  <div class="conference-identity">
+    <a class="conference-logo" href="https://aaai.org/" aria-label="AAAI — official website"><img src="{{ '/assets/img/brand/aaai-logo.png' | relative_url }}" alt="Association for the Advancement of Artificial Intelligence" width="1000" height="235"></a>
+    <div class="conference-context"><a href="https://aaai.org/conference/aaai/aaai-27/" class="conference-title">AAAI-27 Tutorial <span aria-hidden="true">↗</span></a><p>Montréal, Canada <span class="badge badge-green">Accepted</span></p></div>
+  </div>
   <h1>Frontiers of LLMs for<br class="desktop-break"> Automated Scientific Discovery<span class="title-colon">:</span><span class="title-subtitle">Scaling Training, Hypothesis Coverage,<br class="desktop-break"> and Closed-Loop Experimentation</span></h1>
 </section>
 <nav class="section-nav" aria-label="On this page"><div class="wrap"><a href="#speakers">Presenters</a><a href="#detailed-tutorial-description">Description</a><a href="#tutorial-outline">Outline</a><a href="#reading-list">Reading list</a></div></nav>
@@ -12,7 +15,10 @@
     {% for speaker in tutorial.speakers %}
     <article class="speaker">
       <a class="portrait-link" href="{{ speaker.url | escape }}" aria-label="{{ speaker.name }} — profile"><img src="{{ '/assets/img/2027/' | append: speaker.image | relative_url }}" alt="{{ speaker.name }}" width="480" height="480" loading="lazy"></a>
-      <h3><a href="{{ speaker.url | escape }}">{{ speaker.name }} <span aria-hidden="true">↗</span></a></h3>
+      <div class="speaker-name-row">
+        <h3><a href="{{ speaker.url | escape }}">{{ speaker.name }} <span aria-hidden="true">↗</span></a></h3>
+        <a class="speaker-email" href="mailto:{{ speaker.email | escape }}" aria-label="Email {{ speaker.name }}" title="Email {{ speaker.name }}: {{ speaker.email }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
+      </div>
       <details><summary>Biography<span class="sr-only"> of {{ speaker.name }}</span></summary><p>{{ speaker.bio }}</p></details>
     </article>
     {% endfor %}
@@ -77,5 +83,5 @@
     <section class="reading-group"><h3>{{ group.name }}</h3><ul class="reading-list">{% for paper in group.items %}<li><div><a href="{{ paper.url | escape }}">{{ paper.name }} <span aria-hidden="true">↗</span></a><p>{{ paper.topic }}</p></div></li>{% endfor %}</ul></section>
     {% endfor %}
   </section>
-  <div class="contact-strip"><div><h3>Questions about the tutorial?</h3><p><a href="{{ '/list/' | relative_url }}">Explore all editions</a> or get in touch with the organizing team.</p></div><a class="text-link" href="mailto:zonglin001@ntu.edu.sg">zonglin001@ntu.edu.sg <span aria-hidden="true">↗</span></a></div>
+  <div class="contact-strip"><div><h3>Questions about the tutorial?</h3><p>Get in touch using the email icon beside each presenter’s name.</p></div><a class="text-link" href="#speakers">Contact the presenters <span aria-hidden="true">↑</span></a></div>
 </div>

@@ -2,18 +2,26 @@ title: 'Frontiers of LLMs for Automated Scientific Discovery: Scaling Training, 
 location: Montréal, Canada
 speakers:
 - name: Dianbo Liu
+  email: dianbo@nus.edu.sg
+  email_source: https://www.asintelligence.xyz/
   image: dl.jpg
   url: https://www.asintelligence.xyz/
   bio: Dianbo Liu leads the Artificial Scientific Intelligence Lab at the National University of Singapore. His team develops machine learning methods for autonomous scientific research, spanning AI evolution, creativity, and discovery engines. Previously, he was a group leader at the Broad Institute of MIT and Harvard and a postdoctoral researcher with Yoshua Bengio at Mila.
 - name: Zonglin Yang
+  email: zonglin001@ntu.edu.sg
+  email_source: https://zongliny.github.io/
   image: zonglin-photo.jpeg
   url: https://zongliny.github.io/
   bio: Zonglin Yang received his PhD from Nanyang Technological University and his master’s degree from Cornell University. His research focuses on large language models for scientific discovery. He created and leads the MOOSE series, which makes scientific hypothesis discovery tractable through inspiration retrieval, composition, and ranking. He has presented tutorials on scientific discovery at AAAI-26, AI4X 2026, and AI4X 2025.
 - name: Tingting Chen
+  email: tingting.c@u.nus.edu
+  email_source: https://arxiv.org/html/2510.15614v1
   image: tingting-photo.jpeg
   url: https://scholar.google.com/citations?hl=en&user=v6rq6UsAAAAJ
   bio: Tingting Chen is a PhD researcher at the Artificial Scientific Intelligence Lab at the National University of Singapore. Her research evaluates and improves AI agents for hypothesis generation, scientific reasoning, and validation under underdetermined settings. Her work spans hypothesis-space benchmarking, literature-driven discovery, and AI-assisted experiment design.
 - name: Chandan K. Reddy
+  email: reddy@cs.vt.edu
+  email_source: https://creddy.net/images/namecard.jpg
   image: chandan-photo.jpg
   url: https://creddy.net/
   bio: Chandan K. Reddy is a Professor in the Department of Computer Science at Virginia Tech. His research spans generative AI, trustworthy machine learning, and scientific discovery. He has published over 200 peer-reviewed articles and has extensive experience organizing scientific meetings, workshops, and tutorials on generative AI and scientific discovery.

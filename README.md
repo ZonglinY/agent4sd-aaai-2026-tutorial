@@ -68,3 +68,12 @@ publication.
 For a future edition, add a year-specific page/include/data file, update the
 root wrapper to that edition, and add it to the overview and navigation.
 Keep existing year URLs and their materials intact.
+
+### Public contact and branding sources
+
+The 2027 presenters’ email links are based on the submitted proposal and public
+profile/paper sources recorded in `_data/tutorial2027.yml` (`email_source`).
+The AAAI logo at `assets/img/brand/aaai-logo.png` is the unmodified official asset:
+https://aaai.org/wp-content/uploads/2024/03/AAAI-Logo-Title-FullColor.png
+It links to AAAI.org. Brand guidance: https://aaai.org/about-aaai/aaai-logos/
+The mark remains AAAI’s trademark and is not covered by any repository code license.

@@ -1381,3 +1381,40 @@ img {
     padding-left: 3px;
   }
 }
+
+/* Conference identity uses the unmodified official AAAI logo. */
+.conference-identity {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 26px 44px;
+  margin: 38px 0 30px;
+}
+.conference-logo { display: block; flex-shrink: 0; padding: 12px 0; }
+.conference-logo img { display: block; width: 240px; max-width: 100%; height: auto; }
+.conference-title { font-size: 23px; font-weight: 650; text-decoration: none; }
+.conference-title span { font-size: 15px; }
+.conference-context p { font-size: 12px; margin-top: 9px; color: var(--muted); }
+.conference-context .badge { margin-left: 10px; }
+.speaker-name-row { display: flex; align-items: flex-start; gap: 6px; margin-top: 16px; }
+.speaker-name-row h3 { flex: 1; min-width: 0; margin-top: 5px; }
+.speaker-email {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #aab6a0;
+  border-radius: 50%;
+  color: var(--ink);
+}
+.speaker-email:hover { background: #dfe5da; border-color: var(--ink); }
+@media (max-width: 600px) {
+  .conference-identity { margin-top: 26px; gap: 12px; }
+  .conference-context { width: 100%; }
+  .conference-title { font-size: 21px; }
+  .speaker-name-row { flex-wrap: wrap; }
+  .speaker-name-row h3 { flex-basis: 100%; }
+  .speaker-email { margin-top: 4px; }
+}
