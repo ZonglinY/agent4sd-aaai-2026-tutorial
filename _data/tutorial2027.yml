@@ -2,33 +2,21 @@ title: 'Frontiers of LLMs for Automated Scientific Discovery: Scaling Training, 
 location: Montréal, Canada
 speakers:
 - name: Dianbo Liu
-  affiliation: National University of Singapore
-  role: Assistant Professor
   image: dl.jpg
   url: https://www.asintelligence.xyz/
-  topics: Long-horizon discovery & research agents
   bio: Dianbo Liu leads the Artificial Scientific Intelligence Lab at the National University of Singapore. His team develops machine learning methods for autonomous scientific research, spanning AI evolution, creativity, and discovery engines. Previously, he was a group leader at the Broad Institute of MIT and Harvard and a postdoctoral researcher with Yoshua Bengio at Mila.
 - name: Zonglin Yang
-  affiliation: MiroMind
-  role: Research Scientist
   image: zonglin-photo.jpeg
   url: https://zongliny.github.io/
-  topics: Hypothesis generation & scaling training
-  bio: Zonglin Yang is a Research Scientist at MiroMind AI, with training at Nanyang Technological University (PhD), Cornell University (MS), and Microsoft Research. He created and leads the MOOSE series, which makes scientific hypothesis discovery tractable through inspiration retrieval, composition, and ranking. He has presented tutorials on scientific discovery at AAAI-26, AI4X 2026, and AI4X 2025.
+  bio: Zonglin Yang received his PhD from Nanyang Technological University and his master’s degree from Cornell University. His research focuses on large language models for scientific discovery. He created and leads the MOOSE series, which makes scientific hypothesis discovery tractable through inspiration retrieval, composition, and ranking. He has presented tutorials on scientific discovery at AAAI-26, AI4X 2026, and AI4X 2025.
 - name: Tingting Chen
-  affiliation: National University of Singapore
-  role: PhD Researcher
   image: tingting-photo.jpeg
   url: https://scholar.google.com/citations?hl=en&user=v6rq6UsAAAAJ
-  topics: Hypothesis coverage & set-valued evaluation
   bio: Tingting Chen is a PhD researcher at the Artificial Scientific Intelligence Lab at the National University of Singapore. Her research evaluates and improves AI agents for hypothesis generation, scientific reasoning, and validation under underdetermined settings. Her work spans hypothesis-space benchmarking, literature-driven discovery, and AI-assisted experiment design.
 - name: Chandan K. Reddy
-  affiliation: Virginia Tech
-  role: Professor of Computer Science
   image: chandan-photo.jpg
   url: https://creddy.net/
-  topics: Equation discovery & verification
-  bio: Chandan K. Reddy is a Professor in the Department of Computer Science at Virginia Tech. His research spans generative AI, trustworthy machine learning, and scientific discovery. He has published over 200 peer-reviewed articles and has extensive experience organizing scientific meetings, workshops, and tutorials on generative AI and scientific equation discovery.
+  bio: Chandan K. Reddy is a Professor in the Department of Computer Science at Virginia Tech. His research spans generative AI, trustworthy machine learning, and scientific discovery. He has published over 200 peer-reviewed articles and has extensive experience organizing scientific meetings, workshops, and tutorials on generative AI and scientific discovery.
 reading:
 - name: Towards Scientific Discovery with Generative AI
   topic: Framing · Progress, opportunities, and challenges

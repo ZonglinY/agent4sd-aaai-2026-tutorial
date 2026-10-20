@@ -13,7 +13,6 @@
     <article class="speaker">
       <a class="portrait-link" href="{{ speaker.url | escape }}" aria-label="{{ speaker.name }} — profile"><img src="{{ '/assets/img/2027/' | append: speaker.image | relative_url }}" alt="{{ speaker.name }}" width="480" height="480" loading="lazy"></a>
       <h3><a href="{{ speaker.url | escape }}">{{ speaker.name }} <span aria-hidden="true">↗</span></a></h3>
-      <p class="speaker-role">{{ speaker.role }}</p><p class="speaker-affiliation">{{ speaker.affiliation }}</p><p class="speaker-topics">{{ speaker.topics }}</p>
       <details><summary>Biography<span class="sr-only"> of {{ speaker.name }}</span></summary><p>{{ speaker.bio }}</p></details>
     </article>
     {% endfor %}

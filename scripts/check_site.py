@@ -67,6 +67,10 @@ def main():
             checked += 1
 
     text = (root / "2027/index.html").read_text()
+    assert "MiroMind" not in text, "Outdated affiliation in latest edition"
+    for removed_class in ("speaker-role", "speaker-affiliation", "speaker-topics"):
+        assert f'class="{removed_class}"' not in text, "Presenter cards must be name-only"
+    assert "Zonglin Yang received his PhD from Nanyang Technological University" in text
     names = ["Dianbo Liu", "Zonglin Yang", "Tingting Chen", "Chandan K. Reddy"]
     indices = [text.index(f'alt="{name}"') for name in names]
     assert indices == sorted(indices), "Incorrect speaker order"
