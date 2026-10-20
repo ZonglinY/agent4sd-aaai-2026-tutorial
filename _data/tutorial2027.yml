@@ -16,7 +16,7 @@ speakers:
 - name: Tingting Chen
   email: tingting.c@u.nus.edu
   email_source: https://arxiv.org/html/2510.15614v1
-  image: tingting-photo.jpeg
+  image: tingting-portrait.png
   url: https://scholar.google.com/citations?hl=en&user=v6rq6UsAAAAJ
   bio: Tingting Chen is a PhD researcher at the Artificial Scientific Intelligence Lab at the National University of Singapore. Her research evaluates and improves AI agents for hypothesis generation, scientific reasoning, and validation under underdetermined settings. Her work spans hypothesis-space benchmarking, literature-driven discovery, and AI-assisted experiment design.
 - name: Chandan K. Reddy
