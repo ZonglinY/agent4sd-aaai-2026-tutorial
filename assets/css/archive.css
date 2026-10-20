@@ -1,0 +1,25 @@
+.archive-notice {
+  padding: 22px 26px;
+  margin: 15px 0 35px;
+  background: #f1f5f1;
+  border-left: 4px solid #285c48;
+  font-size: 17px;
+  line-height: 1.8;
+}
+.archive-notice a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.container[role="main"] .container {
+  width: 100%;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .container > h1 {
+    font-size: 36px !important;
+    overflow-wrap: anywhere;
+  }
+  .archive-notice {
+    font-size: 15px;
+  }
+}

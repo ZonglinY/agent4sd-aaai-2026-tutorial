@@ -1,0 +1,82 @@
+{% assign tutorial = site.data.tutorial2027 %}
+<section class="tutorial-hero compact-hero wrap">
+  <a class="back-link" href="{{ '/list/' | relative_url }}">← All tutorials</a>
+  <div class="eyebrow hero-kicker">AAAI 2027 Tutorial <span class="dot-divider">/</span> Montréal, Canada <span class="badge badge-green">Accepted</span></div>
+  <h1>Frontiers of LLMs for<br class="desktop-break"> Automated Scientific Discovery<span class="title-colon">:</span><span class="title-subtitle">Scaling Training, Hypothesis Coverage,<br class="desktop-break"> and Closed-Loop Experimentation</span></h1>
+</section>
+<nav class="section-nav" aria-label="On this page"><div class="wrap"><a href="#speakers">Presenters</a><a href="#detailed-tutorial-description">Description</a><a href="#tutorial-outline">Outline</a><a href="#reading-list">Reading list</a></div></nav>
+
+<section class="speaker-section" id="speakers"><div class="wrap content-section">
+  <div class="section-heading"><h2>Presenters</h2></div>
+  <div class="speaker-grid">
+    {% for speaker in tutorial.speakers %}
+    <article class="speaker">
+      <a class="portrait-link" href="{{ speaker.url | escape }}" aria-label="{{ speaker.name }} — profile"><img src="{{ '/assets/img/2027/' | append: speaker.image | relative_url }}" alt="{{ speaker.name }}" width="480" height="480" loading="lazy"></a>
+      <h3><a href="{{ speaker.url | escape }}">{{ speaker.name }} <span aria-hidden="true">↗</span></a></h3>
+      <p class="speaker-role">{{ speaker.role }}</p><p class="speaker-affiliation">{{ speaker.affiliation }}</p><p class="speaker-topics">{{ speaker.topics }}</p>
+      <details><summary>Biography<span class="sr-only"> of {{ speaker.name }}</span></summary><p>{{ speaker.bio }}</p></details>
+    </article>
+    {% endfor %}
+  </div>
+</div></section>
+
+<div class="wrap tutorial-body">
+  <section class="slides-section" id="slides" aria-labelledby="slides-title">
+    <h2 id="slides-title">Slides</h2>
+    <p>Slides and demonstration materials will be added here when available. Materials from our previous tutorial are available on the <a href="{{ '/2026/' | relative_url }}">AAAI 2026 page</a>.</p>
+  </section>
+
+  <section class="tutorial-description" id="detailed-tutorial-description">
+    <h2>Detailed Tutorial Description</h2>
+    <section id="overview">
+      <h3>Overview</h3>
+      <p>Large language models can now propose scientific hypotheses, write candidate equations, and design materials. Turning these capabilities into reliable scientific discovery requires more than generating a plausible answer. This tutorial examines how to train discovery models, evaluate the breadth of their hypothesis search, and connect their proposals to experimental evidence.</p>
+      <p>Building on our AAAI 2026 tutorial, we bring together methods and benchmarks across chemistry, physics, materials science, and genetics. Frameworks such as MOOSE-Chem, LLM-SR, and HypoSpace illustrate where LLM-driven discovery works, where it fails, and which tools to use in each setting.</p>
+    </section>
+    <section id="motivation">
+      <h3>Motivation</h3>
+      <p>Prompting an LLM to propose a hypothesis is only a starting point. Three questions organize this tutorial:</p>
+      <ol class="motivation-list">
+        <li><strong>Scaling training.</strong> How can we train discovery models rather than only prompt them, when hypothesis generation involves a combinatorially large search space?</li>
+        <li><strong>Hypothesis coverage.</strong> When many explanations fit the same observations, does a model explore the admissible hypothesis space—or repeatedly return a few familiar answers?</li>
+        <li><strong>Closed-loop experimentation.</strong> How should a system choose what data to collect next, verify candidate discoveries, and update its beliefs over repeated experiments?</li>
+      </ol>
+      <p>Together, these questions shift the focus from individual generations to scientific systems that learn, search broadly, and improve through evidence.</p>
+    </section>
+    <section id="tutorial-outline">
+      <h3>Tutorial Outline</h3>
+      <ol class="tutorial-outline">
+        <li><h4>Scientific discovery as a closed loop</h4><ul><li>Problem specification, context retrieval, hypothesis generation, experiment design, and evaluation.</li><li>Why benchmarks shape the field: memorization, contamination, and the gap between fitting data and recovering scientific structure.</li></ul></li>
+        <li><h4>Discovery with verification</h4><ul><li>LLM-guided equation and materials search, from tree search and symbolic–numeric pretraining to evolutionary search with numerical fitting.</li><li>Scientific equations as programs: LLM-SR and its demonstration; memorization-resistant evaluation with LLM-SRBench and SurfaceBench.</li><li>Adaptive search, diversity, and hypothesis-conditioned experiment selection, illustrated by LLEMA, DecAEvolve, EvoDiverse, and LLM-AutoSciLab.</li></ul></li>
+        <li><h4>Hypothesis generation and refinement</h4><ul><li>Decomposing scientific hypothesis discovery into inspiration retrieval, composition, and ranking: MOOSE, MOOSE-Chem, and ResearchBench.</li><li>Fine-grained discovery through hierarchical search with MOOSE-Chem2, and ranking with simulated experimental feedback.</li><li>Human-in-the-loop exploration and refinement with a MOOSE-Copilot demonstration.</li></ul></li>
+        <li><h4>Scaling training for discovery</h4><ul><li>The complexity barrier to direct training, and how factorization, bounded composition, and hierarchical retrieval make training tractable.</li><li>MOOSE-Star: scaling with data and inference budgets, and understanding the limits of brute-force sampling.</li></ul></li>
+        <li><h4>Hypothesis coverage and set-valued evaluation</h4><ul><li>HypoSpace: enumerated admissible hypothesis sets and deterministic validators.</li><li>Separating validity, uniqueness, and recovery; diagnosing mode collapse even when individual outputs are valid.</li><li>Why more sampling alone may not restore coverage, and which mitigations help.</li></ul></li>
+        <li><h4>Long-horizon discovery and research agents</h4><ul><li>Iterative structure and equation recovery with Auto-Discovery-Bench; belief tracking across repeated hypothesis–experiment–update cycles.</li><li>Process-level evaluation of autonomous research agents with FML-bench, and the role of exploration breadth.</li></ul></li>
+        <li><h4>Synthesis and open problems</h4><ul><li>Coverage under peaked generators, verification without simulators, and credit assignment over long research trajectories.</li><li>Benchmarks that renew with model cutoffs, cross-domain lessons, and discussion.</li></ul></li>
+      </ol>
+      <p>Demonstrations and a short hands-on segment introduce the core hypothesis-generation and equation-discovery loops.</p>
+    </section>
+    <section id="target-audience">
+      <h3>Target Audience</h3>
+      <p>AI researchers, graduate students, practitioners, and domain scientists who want to build, train, or evaluate LLM-based systems for scientific discovery. The tutorial is accessible to participants with a general AI background; scientific case studies are introduced from scratch.</p>
+    </section>
+    <section id="prerequisite-knowledge">
+      <h3>Prerequisite Knowledge</h3>
+      <p>Basic familiarity with LLMs and their use as agents, at the level of having used an LLM API and read a paper on prompting or tool use. The equation-discovery material assumes undergraduate familiarity with regression and optimization. No specialist knowledge of chemistry, physics, materials science, or genetics is required.</p>
+    </section>
+    <section id="learning-outcomes">
+      <h3>Learning Outcomes</h3>
+      <p>Participants will gain:</p>
+      <ul><li>A clear map of the methods and benchmarks used in LLM-driven scientific discovery.</li><li>An understanding of hypothesis generation as retrieval, composition, and ranking, and how this decomposition enables search and training.</li><li>Practical insight into equation and materials discovery with numerical verification.</li><li>Tools for distinguishing valid outputs from broad hypothesis-space coverage.</li><li>An understanding of experiment selection, iterative belief updating, and the challenges of long-horizon scientific agents.</li></ul>
+    </section>
+  </section>
+
+  <section class="tutorial-reading" id="reading-list">
+    <h2>Reading List</h2>
+    {% assign reading_groups = tutorial.reading | group_by: 'group' %}
+    {% for group in reading_groups %}
+    <section class="reading-group"><h3>{{ group.name }}</h3><ul class="reading-list">{% for paper in group.items %}<li><div><a href="{{ paper.url | escape }}">{{ paper.name }} <span aria-hidden="true">↗</span></a><p>{{ paper.topic }}</p></div></li>{% endfor %}</ul></section>
+    {% endfor %}
+  </section>
+  <div class="contact-strip"><div><h3>Questions about the tutorial?</h3><p><a href="{{ '/list/' | relative_url }}">Explore all editions</a> or get in touch with the organizing team.</p></div><a class="text-link" href="mailto:zonglin001@ntu.edu.sg">zonglin001@ntu.edu.sg <span aria-hidden="true">↗</span></a></div>
+</div>

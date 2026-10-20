@@ -9,7 +9,7 @@
     function load() { if (window.location.hash) shiftWindow(); }
   </script>
   
-  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.meta-title %}{{ page.meta-title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="author" content="{{ site.author.name }}" />
 
@@ -84,7 +84,7 @@
   <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
   {% endif %}
 
-  <meta name="image" property="og:image" content="https://mathai2022.github.io/img/logo/1600_1200.png">
+  <meta name="image" property="og:image" content="{{ '/img/aaai-logo.png' | absolute_url }}">
   
   <meta property="og:type" content="website" />
 

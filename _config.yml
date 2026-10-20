@@ -10,17 +10,17 @@
 ############################
 
 # If you are building a GitHub project page then use these settings:
-url: "https://llm4sd.io"
+url: "https://agent4sd.io"
 baseurl: ""
 timezone: "Asia/Singapore"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Agentic AI for Scientific Discovery (AAAI 2026 tutorial) (Jan 21, 2:00pm-6:00pm)
+title: LLMs for Scientific Discovery · Tutorial Series
 
 # Short description of your site
-description: Agentic-AI-Scientific-Discovery
+description: Tutorials on large language models and agentic AI for automated scientific discovery.
 
 # Your name to show in the footer
 # author: 
@@ -296,11 +296,9 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "February 26, 2025 (2:00 pm – 6:00 pm EST), Meeting Room 116, Philadelphia"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
@@ -324,8 +322,9 @@ defaults:
 
 # Exclude these files from production site
 exclude:
+  - scripts
+  - vendor
   - CHANGELOG.md
-  - CNAME
   - Dockerfile
   - Gemfile
   - Gemfile.lock

@@ -15,12 +15,12 @@
       {% if site.title-img %}
       <a
         class="navbar-brand navbar-brand-logo"
-        href="{{ site.url }}{{ site.baseurl }}/"
+        href="{{ '/' | relative_url }}"
         ><img src="{{ site.title - img }}"
       /></a>
       {% else %}
-      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{
-        site.title
+      <a class="navbar-brand" href="{{ '/' | relative_url }}">{{
+        page.nav_title | default: site.title
       }}</a>
       {% endif %}
     </div>

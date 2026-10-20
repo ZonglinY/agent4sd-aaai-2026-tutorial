@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} | LLMs for Scientific Discovery</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <meta name="theme-color" content="#173e35">
+  <link rel="canonical" href="{{ page.canonical_path | default: page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:url" content="{{ page.canonical_path | default: page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="{{ '/assets/css/series.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="LLMs for Scientific Discovery — latest tutorial">
+        <span class="brand-mark" aria-hidden="true">s<span>↗</span></span>
+        <span>LLMs for Scientific Discovery<small>A tutorial series</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="{{ '/list/' | relative_url }}"{% if page.series_home %} aria-current="page"{% endif %}>All editions</a>
+        <a href="{{ '/2027/' | relative_url }}"{% if page.edition == 2027 %} aria-current="page"{% endif %}>AAAI 2027</a>
+        <a href="{{ '/2026/' | relative_url }}">AAAI 2026 <span class="nav-archive">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><strong>LLMs for Scientific Discovery</strong><p>A tutorial series on building, training, and evaluating scientific AI.</p></div>
+      <div><a href="mailto:zonglin001@ntu.edu.sg">Contact the organizers ↗</a><p><a href="{{ '/list/' | relative_url }}">All editions</a> <span aria-hidden="true">/</span> <a href="{{ '/2026/' | relative_url }}">2026</a> <span aria-hidden="true">/</span> <a href="{{ '/2027/' | relative_url }}">2027</a></p></div>
+    </div>
+  </footer>
+</body>
+</html>
