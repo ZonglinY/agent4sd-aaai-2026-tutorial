@@ -102,6 +102,12 @@ def main():
                    "learning-outcomes", "reading-list", "speakers", "slides"):
         assert anchor in pages["/"].ids and anchor in pages["/2027/"].ids
 
+    # Cover every distinct citation in the accepted tutorial proposal.
+    proposal_keys = set("reddy2025towards luo2025llm4sr TPSR SNIP LLM-SR LLM-SRBench SurfaceBench DecAEvolve EvoDiverse LLEMA LLM-AutoSciLab LLM-ACES MOOSE yang2024moose MC2 MC3 ResearchBench MOOSE-Copilot MOOSE-Star HypoSpace AutoDiscoveryBench FML-bench".split())
+    rendered_keys = re.findall(r'data-proposal-key="([^"]+)"', text)
+    assert len(rendered_keys) == len(set(rendered_keys)) == 22
+    assert set(rendered_keys) == proposal_keys, "Missing proposal reading"
+
     # Fixture captured from the pre-migration revision 9b3d573.
     # Preserve original 2026 slide URLs and reading-list links.
     source = Path(__file__).resolve().parents[1]

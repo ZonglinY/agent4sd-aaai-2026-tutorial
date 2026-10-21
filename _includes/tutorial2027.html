@@ -81,9 +81,10 @@
 
   <section class="tutorial-reading" id="reading-list">
     <h2>Reading List</h2>
+    <p>Papers discussed throughout the tutorial, grouped by theme.</p>
     {% assign reading_groups = tutorial.reading | group_by: 'group' %}
     {% for group in reading_groups %}
-    <section class="reading-group"><h3>{{ group.name }}</h3><ul class="reading-list">{% for paper in group.items %}<li><div><a href="{{ paper.url | escape }}">{{ paper.name }} <span aria-hidden="true">↗</span></a><p>{{ paper.topic }}</p></div></li>{% endfor %}</ul></section>
+    <section class="reading-group"><h3>{{ group.name }}</h3><ul class="reading-list">{% for paper in group.items %}<li data-proposal-key="{{ paper.proposal_key | escape }}"><div><a href="{{ paper.url | escape }}">{{ paper.name }} <span aria-hidden="true">↗</span></a><p>{{ paper.topic }}</p></div></li>{% endfor %}</ul></section>
     {% endfor %}
   </section>
   <div class="contact-strip"><div><h3>Questions about the tutorial?</h3><p>Get in touch using the email icon beside each presenter’s name.</p></div><a class="text-link" href="#speakers">Contact the presenters <span aria-hidden="true">↑</span></a></div>

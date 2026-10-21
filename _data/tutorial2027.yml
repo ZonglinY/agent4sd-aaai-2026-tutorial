@@ -26,43 +26,113 @@ speakers:
   url: https://creddy.net/
   bio: Chandan K. Reddy is a Professor in the Department of Computer Science at Virginia Tech. His research spans generative AI, trustworthy machine learning, and scientific discovery. He has published over 200 peer-reviewed articles and has extensive experience organizing scientific meetings, workshops, and tutorials on generative AI and scientific discovery.
 reading:
-- name: Towards Scientific Discovery with Generative AI
+- name: 'Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges'
   topic: Framing · Progress, opportunities, and challenges
   url: https://creddy.net/papers/AAAI25.pdf
   group: Introduction
+  proposal_key: reddy2025towards
 - name: A Survey on Large Language Models for Scientific Research
   topic: Framing · A map of the field
   url: https://arxiv.org/abs/2501.04306
   group: Introduction
+  proposal_key: luo2025llm4sr
+- name: Transformer-Based Planning for Symbolic Regression
+  topic: TPSR · Planning and tree search
+  url: https://creddy.net/papers/NeurIPS23a.pdf
+  group: Discovery with Verification
+  proposal_key: TPSR
+- name: 'SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training'
+  topic: Pretraining · Symbolic–numeric representations
+  url: https://creddy.net/papers/ICLR24.pdf
+  group: Discovery with Verification
+  proposal_key: SNIP
 - name: 'LLM-SR: Scientific Equation Discovery via Programming with Large Language Models'
   topic: Verification · Equations as programs
   url: https://creddy.net/papers/ICLR25.pdf
   group: Discovery with Verification
+  proposal_key: LLM-SR
 - name: 'LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models'
   topic: Verification · Memorization-resistant evaluation
   url: https://creddy.net/papers/ICML25.pdf
   group: Discovery with Verification
-- name: LLM-AutoSciLab
-  topic: Closed-loop experimentation · Scientific law discovery
-  url: https://sanchit-404.github.io/llm-autoscilab-website/
+  proposal_key: LLM-SRBench
+- name: 'SURFACEBENCH: A Geometry-Aware Benchmark for Symbolic Surface Discovery'
+  topic: Evaluation · Scientific surfaces and geometric structure
+  url: https://creddy.net/papers/TMLR26.pdf
   group: Discovery with Verification
+  proposal_key: SurfaceBench
+- name: 'DecAEvolve: Decompose, Adapt, and Evolve for Effective LLM-based Scientific Equation Discovery'
+  topic: Adaptive search · Term-level feedback and test-time RL
+  url: https://creddy.net/papers/ICML26a.pdf
+  group: Discovery with Verification
+  proposal_key: DecAEvolve
+- name: Towards Diverse Scientific Hypothesis Search with Large Language Models
+  topic: EvoDiverse · Parallel tempering for diverse hypothesis search
+  url: https://creddy.net/papers/ICML26.pdf
+  group: Discovery with Verification
+  proposal_key: EvoDiverse
+- name: 'LLEMA: Evolutionary Search with LLMs for Multi-Objective Materials Discovery'
+  topic: Materials discovery · Evolutionary search with surrogate oracles
+  url: https://creddy.net/papers/ICLR26.pdf
+  group: Closed-Loop Experimentation and Materials Discovery
+  proposal_key: LLEMA
+- name: 'LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs'
+  topic: Closed-loop experimentation · Scientific law discovery
+  url: https://arxiv.org/abs/2605.24043
+  group: Closed-Loop Experimentation and Materials Discovery
+  proposal_key: LLM-AutoSciLab
+- name: 'LLM-ACES: Closed-Loop Discovery of Dynamical Systems with LLM-Guided Adaptive Search'
+  topic: Closed-loop discovery · Adaptive acquisition of informative trajectories
+  url: https://arxiv.org/abs/2606.25039
+  group: Closed-Loop Experimentation and Materials Discovery
+  proposal_key: LLM-ACES
+- name: Large Language Models for Automated Open-domain Scientific Hypotheses Discovery
+  topic: MOOSE · Open-domain hypothesis generation and feedback
+  url: https://arxiv.org/abs/2309.02726
+  group: Hypothesis Generation and Training
+  proposal_key: MOOSE
 - name: 'MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses'
   topic: Hypothesis generation · Retrieval, composition, and ranking
   url: https://arxiv.org/abs/2410.07076
   group: Hypothesis Generation and Training
+  proposal_key: yang2024moose
 - name: 'MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search'
   topic: Hypothesis generation · Hierarchical refinement
   url: https://arxiv.org/abs/2505.19209
   group: Hypothesis Generation and Training
+  proposal_key: MC2
+- name: 'MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback'
+  topic: Hypothesis ranking · Simulated experimental feedback
+  url: https://arxiv.org/abs/2505.17873
+  group: Hypothesis Generation and Training
+  proposal_key: MC3
+- name: 'ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition'
+  topic: Evaluation · Inspiration retrieval, composition, and ranking
+  url: https://arxiv.org/abs/2503.21248
+  group: Hypothesis Generation and Training
+  proposal_key: ResearchBench
+- name: 'MOOSE-Copilot: A Web-Based Interactive Assistant for Unified Exploratory and Fine-Grained Scientific Hypothesis Discovery'
+  topic: Human in the loop · Interactive exploration and refinement
+  url: https://arxiv.org/abs/2605.29475
+  group: Hypothesis Generation and Training
+  proposal_key: MOOSE-Copilot
 - name: 'MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier'
   topic: Scaling training · Beyond prompting
   url: https://arxiv.org/abs/2603.03756
   group: Hypothesis Generation and Training
-- name: HypoSpace
+  proposal_key: MOOSE-Star
+- name: 'HypoSpace: Evaluating LLM Creativity as Set-Valued Hypothesis Generators under Underdetermination'
   topic: Hypothesis coverage · Validity, uniqueness, and recovery
   url: https://arxiv.org/abs/2510.15614
   group: Hypothesis Coverage and Long-Horizon Discovery
-- name: Auto-Discovery-Bench
+  proposal_key: HypoSpace
+- name: 'Auto-Discovery-Bench: Diagnosing Structured State Tracking in Oracle-Guided Discovery'
   topic: Long-horizon discovery · Structured state tracking
   url: https://arxiv.org/abs/2502.15224
   group: Hypothesis Coverage and Long-Horizon Discovery
+  proposal_key: AutoDiscoveryBench
+- name: 'FML-bench: Benchmarking Machine Learning Agents for Scientific Research'
+  topic: Research agents · Process-level evaluation and exploration diversity
+  url: https://arxiv.org/abs/2510.10472
+  group: Hypothesis Coverage and Long-Horizon Discovery
+  proposal_key: FML-bench
