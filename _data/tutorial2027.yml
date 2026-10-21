@@ -127,7 +127,8 @@ reading:
   url: https://arxiv.org/abs/2309.02726
   group: Hypothesis Generation and Training
   proposal_key: MOOSE
-  venue: ACL 2024
+  venue: ACL 2024 · Findings
+  # Findings track confirmed by Zonglin Yang.
   venue_source: https://zongliny.github.io/
   venue_checked: '2026-10-21'
 - name: 'MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses'
@@ -159,7 +160,7 @@ reading:
   url: https://arxiv.org/abs/2503.21248
   group: Hypothesis Generation and Training
   proposal_key: ResearchBench
-  venue: Findings of ACL 2026
+  venue: ACL 2026 · Findings
   venue_source: https://zongliny.github.io/
   venue_checked: '2026-10-21'
 - name: 'MOOSE-Copilot: A Web-Based Interactive Assistant for Unified Exploratory and Fine-Grained Scientific Hypothesis Discovery'

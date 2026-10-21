@@ -109,7 +109,8 @@ def main():
     assert set(rendered_keys) == proposal_keys, "Missing proposal reading"
     venues = re.findall(r'<span class="reading-venue">([^<]+)</span>', text)
     assert len(venues) == 22 and all(v.strip() for v in venues), "Missing publication metadata"
-    assert "Findings of ACL 2026" in venues
+    assert "ACL 2026 · Findings" in venues
+    assert "ACL 2024 · Findings" in venues
     assert "NeurIPS 2025 AI for Science Workshop" in venues
 
     # Fixture captured from the pre-migration revision 9b3d573.
