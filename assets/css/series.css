@@ -1441,3 +1441,7 @@ img {
   .conference-location { font-size: 11px; }
   .speaker-actions details { margin-top: 12px; }
 }
+
+/* Venue metadata is distinct without competing with paper titles. */
+.reading-venue { color: var(--ink); font-weight: 600; }
+.reading-meta-divider { padding-inline: 4px; color: var(--muted); }

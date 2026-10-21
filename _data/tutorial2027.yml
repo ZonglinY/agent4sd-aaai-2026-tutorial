@@ -31,108 +31,174 @@ reading:
   url: https://creddy.net/papers/AAAI25.pdf
   group: Introduction
   proposal_key: reddy2025towards
+  venue: AAAI 2025 · Senior Member Track
+  venue_source: https://creddy.net/publications.html
+  venue_checked: '2026-10-21'
 - name: A Survey on Large Language Models for Scientific Research
   topic: Framing · A map of the field
   url: https://arxiv.org/abs/2501.04306
   group: Introduction
   proposal_key: luo2025llm4sr
+  venue: ACM Computing Surveys · accepted 2026
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: Transformer-Based Planning for Symbolic Regression
   topic: TPSR · Planning and tree search
   url: https://creddy.net/papers/NeurIPS23a.pdf
   group: Discovery with Verification
   proposal_key: TPSR
+  venue: NeurIPS 2023
+  venue_source: https://creddy.net/publications.html
+  venue_checked: '2026-10-21'
 - name: 'SNIP: Bridging Mathematical Symbolic and Numeric Realms with Unified Pre-training'
   topic: Pretraining · Symbolic–numeric representations
   url: https://creddy.net/papers/ICLR24.pdf
   group: Discovery with Verification
   proposal_key: SNIP
+  venue: ICLR 2024 · Spotlight
+  venue_source: https://creddy.net/publications.html
+  venue_checked: '2026-10-21'
 - name: 'LLM-SR: Scientific Equation Discovery via Programming with Large Language Models'
   topic: Verification · Equations as programs
   url: https://creddy.net/papers/ICLR25.pdf
   group: Discovery with Verification
   proposal_key: LLM-SR
+  venue: ICLR 2025 · Oral
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: 'LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models'
   topic: Verification · Memorization-resistant evaluation
   url: https://creddy.net/papers/ICML25.pdf
   group: Discovery with Verification
   proposal_key: LLM-SRBench
+  venue: ICML 2025 · Oral
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: 'SURFACEBENCH: A Geometry-Aware Benchmark for Symbolic Surface Discovery'
   topic: Evaluation · Scientific surfaces and geometric structure
   url: https://creddy.net/papers/TMLR26.pdf
   group: Discovery with Verification
   proposal_key: SurfaceBench
+  venue: TMLR 2026
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: 'DecAEvolve: Decompose, Adapt, and Evolve for Effective LLM-based Scientific Equation Discovery'
   topic: Adaptive search · Term-level feedback and test-time RL
   url: https://creddy.net/papers/ICML26a.pdf
   group: Discovery with Verification
   proposal_key: DecAEvolve
+  venue: ICML 2026
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: Towards Diverse Scientific Hypothesis Search with Large Language Models
   topic: EvoDiverse · Parallel tempering for diverse hypothesis search
   url: https://creddy.net/papers/ICML26.pdf
   group: Discovery with Verification
   proposal_key: EvoDiverse
+  venue: ICML 2026
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: 'LLEMA: Evolutionary Search with LLMs for Multi-Objective Materials Discovery'
   topic: Materials discovery · Evolutionary search with surrogate oracles
   url: https://creddy.net/papers/ICLR26.pdf
   group: Closed-Loop Experimentation and Materials Discovery
   proposal_key: LLEMA
+  venue: ICLR 2026
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: 'LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs'
   topic: Closed-loop experimentation · Scientific law discovery
   url: https://arxiv.org/abs/2605.24043
   group: Closed-Loop Experimentation and Materials Discovery
   proposal_key: LLM-AutoSciLab
+  venue: NeurIPS 2026 · accepted
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: 'LLM-ACES: Closed-Loop Discovery of Dynamical Systems with LLM-Guided Adaptive Search'
   topic: Closed-loop discovery · Adaptive acquisition of informative trajectories
   url: https://arxiv.org/abs/2606.25039
   group: Closed-Loop Experimentation and Materials Discovery
   proposal_key: LLM-ACES
+  venue: NeurIPS 2026 · accepted
+  venue_source: https://creddy.net/
+  venue_checked: '2026-10-21'
 - name: Large Language Models for Automated Open-domain Scientific Hypotheses Discovery
   topic: MOOSE · Open-domain hypothesis generation and feedback
   url: https://arxiv.org/abs/2309.02726
   group: Hypothesis Generation and Training
   proposal_key: MOOSE
+  venue: ACL 2024
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: 'MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses'
   topic: Hypothesis generation · Retrieval, composition, and ranking
   url: https://arxiv.org/abs/2410.07076
   group: Hypothesis Generation and Training
   proposal_key: yang2024moose
+  venue: ICLR 2025
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: 'MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search'
   topic: Hypothesis generation · Hierarchical refinement
   url: https://arxiv.org/abs/2505.19209
   group: Hypothesis Generation and Training
   proposal_key: MC2
+  venue: NeurIPS 2025
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: 'MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback'
   topic: Hypothesis ranking · Simulated experimental feedback
   url: https://arxiv.org/abs/2505.17873
   group: Hypothesis Generation and Training
   proposal_key: MC3
+  venue: NeurIPS 2025 AI for Science Workshop
+  venue_source: https://agent4sd.io/2026/
+  venue_checked: '2026-10-21'
 - name: 'ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition'
   topic: Evaluation · Inspiration retrieval, composition, and ranking
   url: https://arxiv.org/abs/2503.21248
   group: Hypothesis Generation and Training
   proposal_key: ResearchBench
+  venue: Findings of ACL 2026
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: 'MOOSE-Copilot: A Web-Based Interactive Assistant for Unified Exploratory and Fine-Grained Scientific Hypothesis Discovery'
   topic: Human in the loop · Interactive exploration and refinement
   url: https://arxiv.org/abs/2605.29475
   group: Hypothesis Generation and Training
   proposal_key: MOOSE-Copilot
+  venue: ACL 2026 · System Demonstrations
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: 'MOOSE-Star: Unlocking Tractable Training for Scientific Discovery by Breaking the Complexity Barrier'
   topic: Scaling training · Beyond prompting
   url: https://arxiv.org/abs/2603.03756
   group: Hypothesis Generation and Training
   proposal_key: MOOSE-Star
+  venue: ICML 2026
+  venue_source: https://zongliny.github.io/
+  venue_checked: '2026-10-21'
 - name: 'HypoSpace: Evaluating LLM Creativity as Set-Valued Hypothesis Generators under Underdetermination'
   topic: Hypothesis coverage · Validity, uniqueness, and recovery
   url: https://arxiv.org/abs/2510.15614
   group: Hypothesis Coverage and Long-Horizon Discovery
   proposal_key: HypoSpace
+  venue: ICML 2026 · Spotlight
+  venue_source: https://www.asintelligence.xyz/publications/
+  venue_checked: '2026-10-21'
 - name: 'Auto-Discovery-Bench: Diagnosing Structured State Tracking in Oracle-Guided Discovery'
   topic: Long-horizon discovery · Structured state tracking
   url: https://arxiv.org/abs/2502.15224
   group: Hypothesis Coverage and Long-Horizon Discovery
   proposal_key: AutoDiscoveryBench
+  venue: arXiv preprint · 2025 (revised 2026)
+  venue_source: https://arxiv.org/abs/2502.15224
+  venue_checked: '2026-10-21'
 - name: 'FML-bench: Benchmarking Machine Learning Agents for Scientific Research'
   topic: Research agents · Process-level evaluation and exploration diversity
   url: https://arxiv.org/abs/2510.10472
   group: Hypothesis Coverage and Long-Horizon Discovery
   proposal_key: FML-bench
+  venue: arXiv preprint · 2025 (revised 2026)
+  venue_source: https://arxiv.org/abs/2510.10472
+  venue_checked: '2026-10-21'
