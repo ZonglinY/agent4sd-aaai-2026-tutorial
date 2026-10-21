@@ -108,7 +108,9 @@ def main():
     assert len(rendered_keys) == len(set(rendered_keys)) == 22
     assert set(rendered_keys) == proposal_keys, "Missing proposal reading"
     venues = re.findall(r'<span class="reading-venue">([^<]+)</span>', text)
-    assert len(venues) == 22 and all(v.strip() for v in venues), "Missing publication metadata"
+    assert len(venues) == 20 and all(v.strip() for v in venues), "Incorrect publication metadata"
+    assert "arXiv preprint" not in text and "Senior Member Track" not in text
+    assert "AAAI 2025" in venues
     assert "ACL 2026 · Findings" in venues
     assert "ACL 2024 · Findings" in venues
     assert "NeurIPS 2025 AI for Science Workshop" in venues

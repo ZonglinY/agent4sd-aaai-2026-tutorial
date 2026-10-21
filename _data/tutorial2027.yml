@@ -31,7 +31,7 @@ reading:
   url: https://creddy.net/papers/AAAI25.pdf
   group: Introduction
   proposal_key: reddy2025towards
-  venue: AAAI 2025 · Senior Member Track
+  venue: AAAI 2025
   venue_source: https://creddy.net/publications.html
   venue_checked: '2026-10-21'
 - name: A Survey on Large Language Models for Scientific Research
@@ -192,7 +192,6 @@ reading:
   url: https://arxiv.org/abs/2502.15224
   group: Hypothesis Coverage and Long-Horizon Discovery
   proposal_key: AutoDiscoveryBench
-  venue: arXiv preprint · 2025 (revised 2026)
   venue_source: https://arxiv.org/abs/2502.15224
   venue_checked: '2026-10-21'
 - name: 'FML-bench: Benchmarking Machine Learning Agents for Scientific Research'
@@ -200,6 +199,5 @@ reading:
   url: https://arxiv.org/abs/2510.10472
   group: Hypothesis Coverage and Long-Horizon Discovery
   proposal_key: FML-bench
-  venue: arXiv preprint · 2025 (revised 2026)
   venue_source: https://arxiv.org/abs/2510.10472
   venue_checked: '2026-10-21'
