@@ -81,6 +81,12 @@ def main():
     assert '<a href="mailto:zonglin001@ntu.edu.sg">Feedback &amp; suggestions ↗</a>' in text
     assert 'href="#speakers">Contact the presenters' in text
     assert "AAAI 2027 · Tutorial" in text
+    for title_route in ("index.html", "2027/index.html", "list/index.html"):
+        title_markup = (root / title_route).read_text()
+        title_plain = " ".join(html.unescape(re.sub(r"<[^>]+>", " ", title_markup)).split())
+        assert "Frontiers in LLM-Driven Scientific Discovery" in title_plain
+        assert "Training, Hypothesis Exploration," in title_plain
+        assert "Frontiers of LLMs for" not in title_markup
     assert "Accepted" not in text
     assert baseurl + "/assets/img/brand/aaai-logo.png" in pages["/2027/"].images
     assert "https://aaai.org/conference/aaai/aaai-27/" in pages["/2027/"].links

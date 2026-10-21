@@ -16,8 +16,8 @@ permalink: /list/
   <article class="featured-edition">
     <div class="edition-copy">
       <div class="edition-label"><span class="badge">Upcoming · Accepted</span><span>AAAI 2027 / Montréal</span></div>
-      <h3>Frontiers of LLMs for<br>Automated Scientific Discovery</h3>
-      <p class="edition-subtitle">Scaling Training, Hypothesis Coverage,<br>and Closed-Loop Experimentation</p>
+      <h3>Frontiers in LLM-Driven<br>Scientific Discovery</h3>
+      <p class="edition-subtitle">Training, Hypothesis Exploration,<br>and Closed-Loop Experimentation</p>
       <p class="edition-description">Beyond prompting: train discovery models, explore the hypothesis space, and let experiments guide what comes next.</p>
       <div class="edition-meta"><span>Montréal, Canada · AAAI-27</span><span>Presenters, tutorial overview, and reading materials</span></div>
       <a class="button button-light" href="{{ '/2027/' | relative_url }}">Explore AAAI 2027 <span aria-hidden="true">↗</span></a>
