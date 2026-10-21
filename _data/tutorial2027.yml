@@ -39,7 +39,7 @@ reading:
   url: https://arxiv.org/abs/2501.04306
   group: Introduction
   proposal_key: luo2025llm4sr
-  venue: ACM Computing Surveys · accepted 2026
+  venue: ACM Computing Surveys · 2026
   venue_source: https://zongliny.github.io/
   venue_checked: '2026-10-21'
 - name: Transformer-Based Planning for Symbolic Regression
@@ -111,7 +111,7 @@ reading:
   url: https://arxiv.org/abs/2605.24043
   group: Closed-Loop Experimentation and Materials Discovery
   proposal_key: LLM-AutoSciLab
-  venue: NeurIPS 2026 · accepted
+  venue: NeurIPS 2026
   venue_source: https://creddy.net/
   venue_checked: '2026-10-21'
 - name: 'LLM-ACES: Closed-Loop Discovery of Dynamical Systems with LLM-Guided Adaptive Search'
@@ -119,7 +119,7 @@ reading:
   url: https://arxiv.org/abs/2606.25039
   group: Closed-Loop Experimentation and Materials Discovery
   proposal_key: LLM-ACES
-  venue: NeurIPS 2026 · accepted
+  venue: NeurIPS 2026
   venue_source: https://creddy.net/
   venue_checked: '2026-10-21'
 - name: Large Language Models for Automated Open-domain Scientific Hypotheses Discovery
